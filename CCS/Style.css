@@ -1,0 +1,442 @@
+/*Etiquetas a */
+a.links-intro{
+	color: rgb(8, 5, 5);
+	text-decoration: none; /*Quitar sublineado a los links*/
+}
+
+.intros:hover{
+	background-color: #ffffff80;
+}
+
+.intros{
+	transition: all 0.2s;
+}
+
+/*Edicion de las barras*/
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../Media/Imagenes/nav.jpg");
+	/* background: linear-gradient(70deg, #7e0269, #018383); */
+	font-size: 30px;
+	padding: 35px;
+}
+
+.navContenedor > .Temas > a {
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navContenedor > a {
+	padding: 10px;
+	text-decoration: none;
+}
+/*Divs*/
+div.Temas{
+	margin: 0;
+	padding: 0;
+}
+
+div.twoColumns{
+	width: 50%;
+}
+.lateral-left{
+	width: 100px;
+}
+.lateral-right{
+	width: 100px;
+}
+.table-Inicio{
+	width: 80%;
+    min-width: 1000px;
+    min-height: 650px;
+    margin: 0px auto;
+}
+
+
+div.textos{
+	margin: 50px;
+	background-color: rgba(253, 250, 250, 0.863);
+	text-align: center;
+}
+
+/*Bodys*/
+body.principal{
+    background-image: url("../Media/Imagenes/Fondo.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+
+body.Unidad1{
+    background-image: url("../Media/Imagenes/U1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+
+body.Unidad2{
+    background-image: url("../Media/Imagenes/U2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+
+body.Unidad3{
+    background-image: url("../Media/Imagenes/u3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+
+body.Unidad4{
+    background-image: url("../Media/Imagenes/u4.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+
+/*Contiene  las imagenes */
+img.Uni1{
+    content: url("../Media/Imagenes/Uni1.jpg");
+    width: 150px;
+    height:150px;
+    display: block;
+    margin:auto;
+}
+img.Uni2{
+    content: url("../Media/Imagenes/uni2.jpg");
+    width: 150px;
+    height:150px;
+    display: block;
+    margin:auto;
+}
+img.Uni3{
+    content: url("../Media/Imagenes/uni3.jpg");
+    width: 150px;
+    height:150px;
+    display: block;
+    margin:auto;
+}
+img.Uni4{
+    content: url("../Media/Imagenes/uni4.jpg");
+    width: 150px;
+    height:150px;
+    display: block;
+    margin:auto;
+}
+img.Mauchly{
+    content: url("../Media/Imagenes/Mauchly.png");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Harvard{
+    content: url("../Media/Imagenes/Harvard.png");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Seg{
+    content: url("../Media/Imagenes/Segmentada.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Ciclo{
+    content: url("../Media/Imagenes/Ciclo.png");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Caracte{
+    content: url("../Media/Imagenes/Caracte.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Alu{
+    content: url("../Media/Imagenes/Alu1.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Reg{
+    content: url("../Media/Imagenes/Registros.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Mem{
+    content: url("../Media/Imagenes/Mem.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.MemC{
+    content: url("../Media/Imagenes/MC.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Modulos{
+    content: url("../Media/Imagenes/Modulos.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Acc{
+    content: url("../Media/Imagenes/Acceso.png");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Buses{
+    content: url("../Media/Imagenes/Buses1.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.JBuses{
+    content: url("../Media/Imagenes/JBuses.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.org{
+    content: url("../Media/Imagenes/Org.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.RegistrosCE{
+    content: url("../Media/Imagenes/RegistrosCE.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.CiclosFDE{
+    content: url("../Media/Imagenes/CicloFDE.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Instru{
+    content: url("../Media/Imagenes/Instrucciones.jpg");
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Dire{
+    content: url("../Media/Imagenes/Direccionamiento.jpg");
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin:auto;
+}
+img.Chip{
+    content: url("../Media/Imagenes/Chip.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.cpu{
+    content: url("../Media/Imagenes/CPU.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.CBuses{
+    content: url("../Media/Imagenes/CBuses.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.E-s{
+    content: url("../Media/Imagenes/E-s.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.DisE-S{
+    content: url("../Media/Imagenes/Dispositivos E-S.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Ram{
+    content: url("../Media/Imagenes/Ram.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Fuente{
+    content: url("../Media/Imagenes/Fuente.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Industria{
+    content: url("../Media/Imagenes/Industria.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.E-Comm{
+    content: url("../Media/Imagenes/E-Comercio.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Par{
+    content: url("../Media/Imagenes/Paralelo.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.PB{
+    content: url("../Media/Imagenes/PBit.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.PI{
+    content: url("../Media/Imagenes/PaInstru.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.PD{
+    content: url("../Media/Imagenes/PDatos.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.PT{
+    content: url("../Media/Imagenes/PTarea.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Olf{
+    content: url("../Media/Imagenes/OLF.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.MemCom{
+    content: url("../Media/Imagenes/MemCompartida.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.CpaqC{
+    content: url("../Media/Imagenes/CPaqCir.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.RedesI{
+    content: url("../Media/Imagenes/RedesI.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Distri{
+    content: url("../Media/Imagenes/Distri.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.Pdf{
+    content: url("../Media/Imagenes/Pdf.png");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+img.YT{
+    content: url("../Media/Imagenes/YT.jpg");
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin:auto;
+}
+
+/*etiquetas p*/
+p.TituloPrincipal{
+    font-family: "M PLUS Code Latin";
+    font-size: 400%;
+    color: #000000;
+    text-align: center;
+}
+p.Redaccion{
+    font-family: "Prompt";
+    font-size: 100%;
+    font-weight: 500;
+    color: black;
+    text-align: justify;
+}
+
+p.Titulos{
+    font-family: "M PLUS Code Latin";
+    font-size: 120%;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+p.Sub{
+    font-family: "M PLUS Code Latin";
+    font-size: 100%;
+    font-weight: 700;
+    color: black;
+    text-align: justify;
+}
+
+/*viñetas*/
+
+ul.viñetas{
+    font-family: "Prompt";
+       font-size: 15px;	
+       color: black;
+       text-align:justify;
+       margin-left:20px ;
+       list-style-type:circle;
+   }
